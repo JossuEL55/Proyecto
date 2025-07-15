@@ -26,7 +26,7 @@
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
         <div class="container px-4 px-lg-5">
-            <a class="navbar-brand" href="#page-top">Cga Store</a>
+            <a class="navbar-brand" href="#page-top">CGA STORE</a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
                 aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
@@ -114,12 +114,13 @@
             <div class="row g-0">
                 @php
                     $productos = [
-                        ['nombre' => 'Lubricante Premium', 'categoria' => 'Lubricantes', 'imagen' => 1],
+                        ['nombre' => 'Lubricante Premium', 'categoria' => 'Lubricantes', 'imagen' => 7],
                         ['nombre' => 'Filtro de Aire HD', 'categoria' => 'Filtros', 'imagen' => 2],
                         ['nombre' => 'Aceite Hidráulico', 'categoria' => 'Aceites', 'imagen' => 3],
-                        ['nombre' => 'Válvula de Presión', 'categoria' => 'Componentes', 'imagen' => 4],
-                        ['nombre' => 'Extintor ABC', 'categoria' => 'Seguridad', 'imagen' => 5],
-                        ['nombre' => 'Manguera Industrial', 'categoria' => 'Accesorios', 'imagen' => 6],
+                        ['nombre' => 'Mantenimiento y Reparación', 'categoria' => 'Servicios', 'imagen' => 4],
+                        ['nombre' => 'Capacitación y Formación', 'categoria' => 'Servicios', 'imagen' => 5],
+                        ['nombre' => 'Consultoría Técnica', 'categoria' => 'Servicios', 'imagen' => 6],
+
                     ];
                 @endphp
                 @foreach ($productos as $producto)
@@ -192,7 +193,7 @@
     <footer class="bg-light py-5">
         <div class="container px-4 px-lg-5">
             <div class="small text-center text-muted">Copyright &copy;
-                {{ now()->year }} - Company Name
+                {{ now()->year }} - CGA STORE
             </div>
         </div>
     </footer>
